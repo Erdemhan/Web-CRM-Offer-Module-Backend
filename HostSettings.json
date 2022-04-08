@@ -1,0 +1,8 @@
+﻿{
+  "urls": "http://localhost:5000",
+  "Environment": "Development",
+  "ConnectionStrings": {
+    "ConnectionString": "Data Source=DESKTOP-JLK8KT1\\SQLEXPRESS;Initial Catalog=crmweb;Integrated Security=True"
+  }
+
+}

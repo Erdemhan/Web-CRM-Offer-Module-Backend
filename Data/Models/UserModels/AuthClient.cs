@@ -1,0 +1,28 @@
+﻿namespace crmweb.Models.UserModels
+{
+    public class AuthClient
+    {
+        //Member Variables/////////////////////////////////////////////////////
+
+        //Constructor//////////////////////////////////////////////////////////
+
+        //Functions////////////////////////////////////////////////////////////
+     
+        //Actions//////////////////////////////////////////////////////////////
+
+        //Properties///////////////////////////////////////////////////////////
+      
+        public string Id { get; set; }
+        public string KeyId { get; set; }
+        public string Issuer { get; set; }
+        public string Secret { get; set; }
+
+        public bool ValidateLifeTime { get; set; } = true;
+        public int TokenLifeTime { get; set; }
+        public int RefreshTokenLifeTime { get; set; }
+
+        //Static Properties////////////////////////////////////////////////////
+
+        //Computed Properties//////////////////////////////////////////////////
+    }
+}
