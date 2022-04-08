@@ -6,5 +6,7 @@ EF Core
 AutoMapper
 JwtToken
 
+Database:
+MS SQL Express - LOCAL
 Release Notes:
 Authentication system is off!
